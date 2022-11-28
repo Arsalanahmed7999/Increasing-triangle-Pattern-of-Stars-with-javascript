@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+    width: 100vw;
+    background-color: #000;
+}
+
+.box{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 4px rgb(132, 0, 255);
+    flex-direction: column;
+    
+}
+
+.triangle{
+    color: rgb(132, 0,255);
+    font-size: 60px;
+    font-weight: bold;
+    animation: trans 5s ease-in-out infinite forwards;
+}
+h1{
+    color: rgb(132, 0,255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@keyframes trans {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
